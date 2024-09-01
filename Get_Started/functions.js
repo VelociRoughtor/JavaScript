@@ -127,3 +127,11 @@ function add(num1 = 0, num2 = 0){
 }   
 add();
 add(2,9);
+
+/*
+    QnA
+    ---
+
+    What is a function?
+    ans: Functions in JavaScript are blocks of code designed to perform specific tasks. They allow you to encapsulate reusable code, making your programs more modular, readable, and maintainable. Functions can take input in the form of parameters, process the data, and return an output.
+*/
