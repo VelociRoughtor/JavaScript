@@ -16,7 +16,7 @@
 
 var birianiPrice = 300;
 
-if(birianiPrice <= 300){
+if(birianiPrice == 300){
     console.log('budget e dhorche, khai ek plate');
 }
 else if(birianiPrice > 300 && birianiPrice <= 400){
