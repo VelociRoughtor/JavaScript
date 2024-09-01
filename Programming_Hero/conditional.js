@@ -15,6 +15,7 @@
 */
 
 var birianiPrice = 300;
+
 if(birianiPrice <= 300){
     console.log('budget e dhorche, khai ek plate');
 }
@@ -24,3 +25,15 @@ else if(birianiPrice > 300 && birianiPrice <= 400){
 else{
     console.log("Khabo na, taka nai");
 }
+
+/*
+    if-else shorthand ternary operator
+    ternary - three parts
+
+    syntax:
+
+    condition ? true_statement : false_statement
+*/
+
+(birianiPrice <= 300) ? console.log('budget e dhorche, khai ek plate') : console.log("Khabo na, taka nai");
+
