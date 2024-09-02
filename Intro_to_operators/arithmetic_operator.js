@@ -90,3 +90,23 @@ console.log(a);
 // 8. unary minus
 b = -b;
 console.log(b);
+
+
+/*
+    QnA
+    ---
+    1. What arithmetic operators are available in JavaScript?
+    ans: +, -, *, /, %, ** etc.
+
+    2. If I declared, let num = 1;
+    How would I increment it?
+    ans: we can write, 
+    num = num + 1;
+    or 
+    num += 1;
+    or
+    ++num;
+    or 
+    num++.
+
+*/
