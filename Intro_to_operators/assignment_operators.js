@@ -1,7 +1,21 @@
 /*
 Assignment operators
 --------------------
-In JavaScript. They combine an arithmetic operation with assignment. The assignment operators perform an operation on a variable and assign the result back to that variable. Here’s a breakdown of each:
+An assignment operator in JavaScript is used to assign a value to a variable. The most basic assignment operator is the equals sign (=), but there are several other assignment operators that combine assignment with arithmetic or bitwise operations. Here’s a detailed overview:
+1. Basic Assignment Operator
+2. Compound Assignment Operators
+
+
+Basic Assignment Operator or  Assignment (=)
+--------------------------------------------
+Assigns the value on the right to the variable on the left.
+    
+let x = 5; // Assigns the value 5 to the variable x
+
+
+Compound Assignment Operators
+-----------------------------
+These operators combine an arithmetic operation with assignment. They modify the variable's value based on the result of the operation.
 
 1. Addition Assignment (`+=`)
 -----------------------------
