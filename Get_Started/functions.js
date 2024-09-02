@@ -136,7 +136,19 @@ add(2,9);
     ans: Functions in JavaScript are blocks of code designed to perform specific tasks. They allow you to encapsulate reusable code, making your programs more modular, readable, and maintainable. Functions can take input in the form of parameters, process the data, and return an output.
 
     2. What is a parameter variable?
-    ans: When defining our functions we specify a parameter list in the parentheses. When calling our function we can pass in values and that will allow us to customize the execution of our function. These are called parameter variable.
+    ans:  In JavaScript, a parameter variable is a variable defined in a function’s parameter list. These variables act as placeholders for the values that will be passed into the function when it is called. Parameters allow you to customize the behavior of a function by providing different values. The values passed to these parameters during a function call are known as arguments.
+
+    function greet(name) {
+        console.log("Hello, " + name);
+    }
+
+    greet("Alice"); // Outputs: Hello, Alice
+
+    Here, name is the parameter variable.
+    "Alice" is the argument passed to the function when called.
+
+    3. What are the two reason to create a function?
+    ans: It is created either to perform an action or to calculate a value and return that.
 */
 
 
