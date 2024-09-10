@@ -1,8 +1,4 @@
-
-// const subject = 'Chemistry and Physics';
-// const books = subject.toLowerCase();
-// const dept = subject.toUpperCase();
-
-// console.log(subject);
-// console.log(books);
-// console.log(dept);
+console.log(subject.teacher);
+// console.log(subject.exams);
+// console.log(subject.exams.marks);
+// console.log(subject['exams']);
